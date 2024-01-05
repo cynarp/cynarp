@@ -125,3 +125,16 @@ Outputs:
 
   LabVPCDefaultSecurityGroup:
     Value: !Sub ${LabVPC.DefaultSecurityGroup}
+
+###########
+# S3
+###########
+  MyS3BucketCynthia:
+    Type: AWS::S3::Bucket
+
+
+
+###########
+# EC2
+###########
+
